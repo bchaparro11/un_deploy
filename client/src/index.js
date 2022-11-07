@@ -4,6 +4,8 @@ import './resources/css/index.css';
 import App from './App';
 import { UserProvider } from './context/userContext';
 
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <UserProvider>
