@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    --main-bg-color: #282c34;
+    --enfacis-color: #e7810d;
+}
+
+/* Change the white to any color ;) */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #282c34 inset !important;
+    -webkit-text-fill-color: #fff;
+}
+
+
+#pageLogin {
+    background: white;
+    background: linear-gradient(180deg,   rgb(24, 142, 146)1%, rgb(229, 230, 228) 100%);
+  
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 10000;
+    align-items: center;
+}
+.conicono{
+    display: flex;
+    float: left;
+}
+.iconopag{
+    width: 100px;
+    margin-left: -400px; 
+    margin-top: -20px;
+}
+#contentLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: content-box;
+    padding-bottom: 30px;
+    gap: 20px;
+
+    width: 300px;
+    color: #FFFFFF;
+
+    /* background: aquamarine; */
+    border-radius: 30px;
+    /* box-shadow: 0px 0px 50px 10px rgb(17, 12, 12); */
+}
+
+.titulo-form{
+    background: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color:#500B87;
+    font-weight: 850;
+    font-size: 20px;
+    border-radius: 10px;
+    text-transform: uppercase; margin-top: -100px;
+}
+#formLogin {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+    overflow: hidden;
+}
+
+label span{
+    background: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color:#500B87;
+    font-weight: 850;
+    font-size: 14px;
+    border-radius: 10px;
+
+}
+label input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: none;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+    color: #fff;
+
+    font-size: 14px;
+    font-weight: 600;
+}
+
+label {
+    color: #2ecece;
+}
+
+label input:focus {
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid #2ecece;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+input:-internal-autofill-selected {
+    color: #fff;
+}
+
+.formLogin input {
+    width: 100%;
+    height: 100%;
+    background: none;
+    color: #fff;
+    padding-top: 20px;
+    border: none;
+    outline: 0px;
+}
+
+.sendLogin {
+    margin-top: 20px;
+    background: gray;
+    outline: 0px;
+    color: #ddf1f1;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.sendSignin {
+    font-style: initial;
+}
+
+.option {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 25px;
+}
+.option {
+    display: flex;
+    flex-direction: row;
+    align-items:Right;
+    justify-content: space-evenly;
+    margin-top: 0px;
+}
+
+.otherLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#txtContinueWhit {
+    margin-bottom: 10px;
+    color: #2ecece;
+}
+
+#googleButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#btnGoogle {
+    width: 20px;
+}
+
+#txtNewAccount {
+    /* font-family: 'sans-serif'; */
+    font-size: smaller;
+}
